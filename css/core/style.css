@@ -371,7 +371,7 @@
 	}
 	header *, nav *, section *, footer * {
 		box-sizing: border-box;
-		*behavior: url('https://www.epa.gov/sites/all/themes/epa/inc/boxsizing.htc'):
+		*behavior: url('https://www.epa.gov/sites/all/themes/epa/inc/boxsizing.htc');
 	}
 	header *, nav *, section *, footer * {
 		-moz-transition: background-color .25s linear, border-color .25s linear, -moz-box-shadow .25s linear, box-shadow .25s linear, color .25s linear, opacity .25s linear, text-shadow .25s linear, -moz-transform .25s linear;
@@ -524,7 +524,7 @@
 		padding: 0.2647058824em 2.8235294118em 0.2647058824em 0.6470588235em;
 		width: 100%
 	}
-	@media screen and (min-width:61em) {
+	@media screen and (min-width:65em) {
 		.js header .epa-search>.form-text {
 			border-color: #fff;
 		}
@@ -586,7 +586,7 @@
 			top: 0px;
 		}
 	}
-	@media screen and (min-width:61em) {
+	@media screen and (min-width:65em) {
 		header .epa-search-button {
 			right: 16px;
 		}
